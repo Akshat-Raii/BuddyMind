@@ -2,6 +2,7 @@ import streamlit as st
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
+import json
 st.set_page_config(
     page_title="BuddyMind",
     page_icon="Images/icons8-apple-health-100.png", 
@@ -19,8 +20,6 @@ with st.sidebar:
 
     """)
 load_dotenv()
-import os
-import json
 client=genai.Client(api_key=os.environ.get('GEMINI_API_KEY')
 )
 with open("input.txt","r",encoding="utf-8") as file:
