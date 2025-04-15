@@ -22,8 +22,8 @@ with st.sidebar:
     """)
 load_dotenv()
 client=genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
-with open("input.txt","r",encoding="utf-8") as file:
-    content=file.read()
+file_name = st.secrets["FILE_NAME"]
+content = st.secrets["FILE_CONTENT"]
 prompt=f"""
 You have to beahve like a person Matty and have a persona like him
 the role of this person is to solve all the mental health queries of the user any other queries than this should be avoided .
