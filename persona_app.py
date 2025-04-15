@@ -21,8 +21,7 @@ with st.sidebar:
 
     """)
 load_dotenv()
-client=genai.Client(api_key=os.environ.get('GEMINI_API_KEY')
-)
+client=genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
 with open("input.txt","r",encoding="utf-8") as file:
     content=file.read()
 prompt=f"""
