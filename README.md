@@ -8,8 +8,8 @@ Whether you're feeling overwhelmed, anxious, or just need someone to talk to, Bu
 
 ## 🚀 Hosted Version
 
-🔗 [Try BuddyMind Live](https://your-hosted-url.com)  
-*(Replace this with your actual hosted Streamlit link)*
+🔗 [Try BuddyMind Live]((https://buddymind.streamlit.app/))  
+
 
 ---
 
