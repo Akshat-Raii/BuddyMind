@@ -3,6 +3,7 @@ from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 import json
+import os
 st.set_page_config(
     page_title="BuddyMind",
     page_icon="Images/icons8-apple-health-100.png", 
