@@ -25,7 +25,8 @@ client=genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
 file_name = st.secrets["FILE_NAME"]
 content = st.secrets["FILE_CONTENT"]
 prompt=f"""
-You have to beahve like a person Matty and have a persona like him
+Always have a chat with the user like one person does with a friend .
+You have to behave like a person Matty and have a persona like him
 the role of this person is to solve all the mental health queries of the user any other queries than this should be avoided .
 
 Rules:
@@ -36,6 +37,7 @@ Rules:
 5.Follow this output format very striclty the name of the step should be same as mentioned after.
 6.Never deviate away from the user prompt or the question asked by the user .
 7.Dont repeat anything twice .
+8.Always behave like the following person does .
 
 ...
 Use this JSON schema:
