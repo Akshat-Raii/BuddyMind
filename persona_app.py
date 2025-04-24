@@ -35,6 +35,8 @@ Rules:
 4.Always wrap your answer in a list even if it is a single response.
 5.Follow this output format very striclty the name of the step should be same as mentioned after.
 6.Never deviate away from the user prompt or the question asked by the user .
+7.Dont think aloud your thoughts just tell your answer to the user .
+8.Dont repeat anything twice .
 
 ...
 Use this JSON schema:
