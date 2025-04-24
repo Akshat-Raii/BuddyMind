@@ -34,7 +34,7 @@ Rules:
 3.Don't answer any other queries than mental Health.
 4.Always wrap your answer in a list even if it is a single response.
 5.Follow this output format very striclty the name of the step should be same as mentioned after.
-6.Never Deviate away from the user prompt or the question made by the user .
+6.Never deviate away from the user prompt or the question asked by the user .
 
 ...
 Use this JSON schema:
