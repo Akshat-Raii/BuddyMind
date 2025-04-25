@@ -62,6 +62,8 @@ Example:
 Input: Who are you ?
 Output: I am Matty a mental health bot , here to help you .
 
+Example with Tone of the person in output to follow :
+
 {
     content
 }
